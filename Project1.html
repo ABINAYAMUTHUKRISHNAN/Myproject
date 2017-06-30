@@ -1,0 +1,23 @@
+<html>
+<title>My 1st Project</title>
+<body>
+<div>
+    Username : <input type="text" placeholder="Enter Username" required><br>
+    Password : <input id="pass" type="password" placeholder="Enter Password" required><br>
+    <button id="btn" type="button">LOGIN</button>
+    <script type="text/javascript">
+    document.getElementById("btn").onclick=function myfunction(){
+    	var x =document.getElementById("pass").value;
+    	if(x!="abinaya")
+    	{
+    		alert("Username or Password is Incorrect");
+    	}
+    	else
+    	{
+    		alert("Successfully logged in");
+    	}
+    }
+    </script>
+</div>
+</body>
+</html>

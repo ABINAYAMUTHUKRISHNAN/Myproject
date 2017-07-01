@@ -1,10 +1,20 @@
 <html>
-<title>My 1st Project</title>
+<head>
+<link rel="stylesheet" href="css.css">
+<title>LOGIN PAGE</title>
+</head>
 <body>
-<div>
-    Username : <input type="text" placeholder="Enter Username" required><br>
-    Password : <input id="pass" type="password" placeholder="Enter Password" required><br>
-    <button id="btn" type="button">LOGIN</button>
+<h1><center>LOGIN PAGE<center><h1>
+<div class="a">
+<form>
+<div class="form-inp">
+ <input type="text" placeholder="Username" required="required"><br>
+ <input id="pass" type="password" placeholder="Password" required="required">
+</div>
+<div class="b">
+ <button id="btn" type="button">LOGIN</button>
+</div>
+</form>
     <script type="text/javascript">
     document.getElementById("btn").onclick=function myfunction(){
     	var x =document.getElementById("pass").value;
